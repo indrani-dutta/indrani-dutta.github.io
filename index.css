@@ -1,0 +1,315 @@
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(95, 62, 19);
+    width: 100vw;
+    z-index: 10;
+}
+
+
+.nav-item {
+    float: right;
+    list-style-type: none;
+    text-align: center;
+    width: 12vw;
+    margin: 0 1vw 1vw 1vw;
+    padding: 1vw 0;
+    font-size: 1.5vw;
+}
+
+.nav-item-name {
+    float: left;
+}
+
+.nav-item:hover {
+    background-color: gray;
+}
+
+li a {
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+.back1, .back2, .back3 {
+    position: relative;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.back1 {
+    background-image: url("images/img6.png");
+    min-height: 55vw;
+}
+
+.back2 {
+    background-image: url("images/back2.jpg");
+    min-height: 50vw;
+}
+
+.back3 {
+    background-image: url("images/img4.jpg");
+    min-height: 65vw;
+}
+
+.home-card {
+    margin: 5vw;
+    padding: 5vw 5vw;
+    overflow: auto;
+}
+
+.profile-image {
+    float: right;
+    width: 25vw;
+    border-radius: 100%;
+}
+
+.profile-intro {
+    float: right;
+    width: 30vw;
+    text-align: justify;
+    padding: 1vw 5vw 4vw 5vw;
+    margin-right: 10vw;
+    background-color: blanchedalmond;
+    opacity: 0.8;
+    font-weight: bold;
+    font-size: 1.2vw;
+    font-family: "MV Boli", Times, serif;
+}
+
+.home-heading{
+    font-size: 3.5vw;
+    /* margin-top: -0.8vw; */
+    margin-bottom: 0.3vw;
+    color:rgb(107, 52, 12);
+    text-align: center;
+    font-family:  "Gabriola", Times, serif;
+    text-shadow: 1px 1px 2px black;
+}
+
+.home-buttons{
+    text-align: center;
+}
+
+.button-list {
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+}
+
+button {
+    padding: 0.5vw;
+    font-size: 1.5vw;
+    font-family:"Gabriola", Times, serif;
+    background-color: rgb(245, 239, 216);
+    cursor: pointer;
+}
+
+.heading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    text-decoration: underline ;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(197, 86, 142), 0 0 5px rgb(139, 0, 69);
+    color: rgb(64, 150, 165);
+    font-family: Georgia, Verdana;
+    padding: 3vw 0;
+}
+
+.headingskills{
+    position: absolute;
+    margin-top: 2.4vw;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    text-decoration: underline ;
+    color: rgb(168, 19, 76);
+    text-shadow: 1px 1px 2px black;
+    
+}
+
+.skills-card {
+    position: absolute;
+    top: 12vw;
+    margin: auto;
+    width: 70%;
+    height: 60%;
+    overflow: auto;
+    left: 15%;
+    background-color: rgb(75, 25, 9);
+    table-layout: fixed;
+    text-align: center;
+}
+
+table {
+    margin: auto;
+}
+
+td {
+    padding: 2vw 4vw;
+}
+
+.skill-icon {
+    width: 10vw;
+    height: 9vw;
+}
+
+.skill-progress {
+    width: 10vw;
+}
+
+.dramatics,
+.culture-learning,
+.running,
+.singing,
+.reading,
+.skating {
+    position: absolute;
+    width: 30vw;
+    height: 25vw;
+}
+
+.dramatics {
+    top: 12vw;
+    left: 1vw;
+}
+
+.culture-learning {
+    top: 12vw;
+    left: 33vw;
+}
+
+.running {
+    top: 12vw;
+    left: 65vw;
+}
+
+.singing {
+    top: 38vw;
+    left: 1vw;
+}
+
+.reading {
+    top: 38vw;
+    left: 33vw;
+}
+
+.skating {
+    top: 38vw;
+    left: 65vw;
+}
+
+.photo {
+    width: 30vw;
+    height: 22vw;
+    padding-top: 2vw 1vw 1vw 1vw;
+    margin-left: 1vw;
+}
+
+.dramatics-overlay,
+.culture-learning-overlay,
+.running-overlay,
+.singing-overlay,
+.reading-overlay,
+.skating-overlay {
+    position: absolute;
+    top: 0vw;
+    left: 0vw;
+    width: 30vw;
+    height: 22vw;
+    margin-left: 1vw;
+    opacity: 0;
+    background-color: black;
+    color: white;
+    transition: 500ms ease;
+}
+
+.desc h1 {
+    font-family: "Julius Sans One";
+    font-size: 2vw;
+    text-align: center;
+}
+
+.desc p {
+    font-family: "Didact Gothic";
+    font-size: 1vw;
+    padding-left: 1.2vw;
+    padding-right: 1.2vw;
+    text-align: justify;
+}
+
+.dramatics:hover .dramatics-overlay {
+    opacity: 0.8;
+}
+
+.culture-learning:hover .culture-learning-overlay {
+    opacity: 0.8;
+}
+
+.running:hover .running-overlay {
+    opacity: 0.8;
+}
+
+.singing:hover .singing-overlay {
+    opacity: 0.8;
+}
+
+.reading:hover .reading-overlay {
+    opacity: 0.8;
+}
+
+.skating:hover .skating-overlay {
+    opacity: 0.8;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    color: black;
+}
+
+.social {
+    list-style-type: none;
+    position: absolute;
+    top: 0.8vw;
+    left: 35vw;
+}
+
+.social-list {
+    float: left;
+}
+
+.fa {
+    padding: 0.5vw;
+    font-size: 3vw;
+    width: 4vw;
+    height: 3vw;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 1vw;
+    border-style: solid;
+    border-radius: 20%;
+    border-color: black;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-github {
+    color: black;
+}
+
+.fa-linkedin {
+    background: #007BB5;
+    color: white;
+}
