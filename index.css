@@ -117,6 +117,7 @@ button {
     color: rgb(64, 150, 165);
     font-family: Georgia, Verdana;
     padding: 3vw 0;
+    font-size: 2vw;
 }
 
 .headingskills{
@@ -129,7 +130,7 @@ button {
     text-decoration: underline ;
     color: rgb(168, 19, 76);
     text-shadow: 1px 1px 2px black;
-    
+    font-size: 2vw;
 }
 
 .skills-card {
